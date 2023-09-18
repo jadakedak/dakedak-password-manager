@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    background-color: rgb(174, 174, 174);
+}
+
+
+/*div[class="Stored-Passwords"]{*/
+.Stored-Passwords{
+    text-align: center;
+    background-color: #414040;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#Generator{
+    margin-top:3px;
+    padding:15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #605a5a;
+}
+#Generator:hover{
+    background-color: #847b7b;
+}
+
+#headline{
+    text-align: center;
+    color:white;
+    background-color: #414040;
+    padding:30px;
+    border:1px solid black;
+}
+
+#Save-Password{
+    position:relative;
+    left: 47%;
+    margin-bottom: 20px;
+
+    width:50px;
+    height:30px;
+    border-radius: 5px;
+    background-color: lightslategray;
+    color:black;
+}
+
+#Save-Password:hover{
+    background-color: rgb(91, 105, 118);
+    color:black;
+    cursor: pointer;
+}
+
+input[name="cred-field"]{
+    position: relative;
+    left:38%;
+    right:40%;
+    margin-bottom: 30px;
+
+    height:20px;
+    width:170px;
+    border-radius: 5px;
+    border:2px solid black;
+    font:bolder;
+    font-family: 'Tahoma';
+    font-style: oblique;
+    text-align: center;
+}
+
+#ShowPassword{
+    position: relative;
+    left: 38%;
+}
+#ShowPassword:hover{
+    cursor: pointer;
+}
+
+button[name="password-setting-btn"]{
+    border: 2px solid rgb(74, 62, 62);
+    padding:10px;
+    background-color: grey;
+    margin-left:15px;
+    margin-bottom: 10px;
+}
+button[name="password-setting-btn"]:hover{
+    padding:12px;
+}
+
+
+.fetures{
+    text-align: center;
+}

@@ -1,0 +1,96 @@
+body{
+    width:250px;
+    height:400px;
+    margin: 0px;
+    background-color: grey;
+}
+
+.Header{
+    background-color: lightgrey;
+    margin:2px;
+    text-align: center;
+    border:2px solid black;
+    margin-bottom: 15px;
+}
+
+.login{
+    background-color: lightgrey;
+    border:1px solid black;
+    margin-bottom:25px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: center;
+}
+
+.create-account{
+    background-color: lightgrey;
+    border:1px solid black;
+    margin:0px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.logbox{
+    background-color: lightgrey;
+    border:2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    height:100px;
+}
+
+#loginbtn{
+    margin-bottom: 10px;
+}
+#create-account{
+    margin-bottom: 10px;
+}
+
+
+button[name="submit-btn"]{
+    cursor: pointer;
+    padding:6px;
+    font-family: 'Tahoma';
+    background-color: darkgrey;
+    color:lightgray;
+    font-weight: bold;
+}
+button[name="submit-btn"]:hover{
+    color:darkgray;
+    background-color: lightgrey;
+}
+
+
+input[name="login-field"]{
+    cursor:auto;
+    border: 2px solid grey;
+    width: 160px;
+    height: 20px;
+    border-radius: 6px;
+}
+input[name="showpasswd"]{
+    position: absolute;
+    left: 210px;
+}
+input[type="checkbox"]{
+    cursor:pointer;
+}
+
+
+#username{
+    text-align: center;
+}
+#password{
+    text-align: center;
+}
+#create-username{
+    text-align: center;
+}
+#create-password{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="generator.css">
+</head>
+<body>
+    <div class="generator-container">
+        <div class="generator-block">
+            <h2 class="generator-headline">Generate Password</h2>
+            <div class="options-container">
+                <label for="include-numbers">Include numbers</label>
+                <input id="include-numbers" type="checkbox">
+        
+                <label for="include-special-characters">Include special characters</label>
+                <input id="include-special-characters" type="checkbox">
+            </div>
+            <br>
+            <label for="length">Password Length:</label>
+            <input id="length" max="40" min="4" step="1" type="range" aria-label="Password length">
+            <span id="showlength"></span>
+            <br><br>
+            <button id="generate">Generate</button>
+            <br><br>
+            <input id="result" readonly>
+            <button id="copy_password">Copy</button>
+            <br>
+            <p id="logger"></p>
+        </div>
+    </div>
+    <script src="generator.js"></script>
+</body>
+</html>

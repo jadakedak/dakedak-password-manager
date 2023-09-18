@@ -1,0 +1,41 @@
+body{
+    margin: 2px;
+    background-color: rgb(45, 45, 45);
+}
+
+
+.header{
+    text-align: left;
+    border: 2px solid rgb(60, 52, 42);
+    background-color: rgb(212, 211, 211);
+    border-radius: 10px;
+}
+
+.notes-blocks-container{
+    position:relative;
+    margin-left: 15px;
+    background-color: aliceblue;
+    height:400px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 8px;
+    border: 2px solid black;
+}
+
+.notes-container{
+    position: absolute;
+    left:20%;
+    border-radius: 15px;
+    width: 800px;
+    height:400px;
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#New-NoteBlock{
+    padding:10px;
+    border-radius: 5px;
+}

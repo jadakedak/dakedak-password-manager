@@ -1,0 +1,17 @@
+{
+  "name": "thomedak_manager",
+  "version": "1.0.0",
+  "description": "A lightweight password manager, runs exclusivly on YOUR system, no third party Services are being used",
+  "main": "background.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "passwords",
+    "usernames",
+    "storage",
+    "manager"
+  ],
+  "author": "Thomedak",
+  "license": "ISC"
+}
