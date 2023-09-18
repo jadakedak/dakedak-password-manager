@@ -1,5 +1,5 @@
 {
-  "name": "thomedak_manager",
+  "name": "dakedak_manager",
   "version": "1.0.0",
   "description": "A lightweight password manager, runs exclusivly on YOUR system, no third party Services are being used",
   "main": "background.js",
